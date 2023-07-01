@@ -37,3 +37,30 @@ basic.forever(function () {
             `)
     }
 })
+basic.forever(function () {
+    if (IR == 1) {
+        IR = 0
+        mbit_小車類.RGB_Car_Big2(mbit_小車類.enColor.OFF)
+    } else if (IR == 2) {
+        IR = 0
+        mbit_小車類.RGB_Car_Big2(mbit_小車類.enColor.Red)
+    } else if (IR == 3) {
+        IR = 0
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    } else if (IR == 4) {
+        IR = 0
+        basic.showLeds(`
+            . # # # .
+            . . . # .
+            . . # . .
+            . # . . .
+            . # # # .
+            `)
+    }
+})
