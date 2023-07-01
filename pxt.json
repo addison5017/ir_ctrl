@@ -1,5 +1,5 @@
 {
-    "name": "IR_CTRL",
+    "name": "IR",
     "description": "",
     "dependencies": {
         "core": "*",
