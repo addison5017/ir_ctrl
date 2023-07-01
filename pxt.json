@@ -1,0 +1,27 @@
+{
+    "name": "IR_CTRL",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mbit": "github:lzty634158/yahboom_mbit_tr#8fd7c261a0f44e05a2241abe743db658decc51f2",
+        "YB_IR": "github:lzty634158/YB_IR#a46e4895fe130e249671e344264cb873dd750062"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
